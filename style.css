@@ -1,0 +1,12 @@
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.calculator button {
+    padding: 10px;
+    font-size: 18px;
+}
